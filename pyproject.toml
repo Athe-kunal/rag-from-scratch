@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rag-from-scratch"
+version = "0.1.0"
+description = ""
+authors = ["Athe-kunal <athekunal@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faiss-cpu = "^1.8.0"
+openai = "^1.35.1"
+ipykernel = "^6.29.4"
+chromadb = "^0.5.3"
+pymed = "^0.8.9"
+black = "^24.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
